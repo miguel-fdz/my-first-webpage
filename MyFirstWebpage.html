@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My first web page</title>
+    <link rel="stylesheet" href="My-First-Webpage.css">
+</head>
+
+<body>
+    <div>
+        <h1>This is my first web page</h1>
+        <h4>created by Miguel Fernández</h4>
+    </div>
+
+    <div id="intro">
+        <h2>What this is</h2>
+        <!--- This is a hidden comment within my html! -->
+        <p>This is a simple page put together using some of the HTML
+        and CSS basics I have learned thus far through tutorials on
+        codecademy.com and HTMLDog.com</p>
+    </div>
+
+    <div id="hobbies">
+        <h2>A list of my hobbies</h2>
+            <ul>
+                <li>Cooking new foods and eating. A lot.</li>
+                <li>Some sports, in the following order (plus some links):</li>
+                    <ol>
+                        <li><a href="https://www.youtube.com/watch?v=8FphDCwy6gU" target="_blank">Basketball</a></li>
+                        <li><a href="https://en.wikipedia.org/wiki/Cycling" target="_blank">Cycling</a></li>
+                        <li><a href="https://i.kym-cdn.com/entries/icons/original/000/028/881/gates.jpg" target="_blank">Ping pong</a></li>
+                        <li><a href="https://www.youtube.com/watch?v=eKkNs55rcNo" target="_blank">Futbol</a></li>
+                    </ol>
+                <li>Reading fiction and learning new languages.</li>
+                <li>Watching movies with my wife.</li>
+                <li>Going to the dog park with Elmer!<br><img src="my-doggo.JPG" width="250" height="167" alt="Elmer, my doggo"></li>
+            </ul>
+    </div>
+
+    <div id="table">
+        <h2>A random table:</h2>
+            <table>
+                <tr>
+                    <td>Row 1, cell 1</td>
+                    <td>Row 1, cell 2</td>
+                    <td>Row 1, cell 3</td>
+                </tr>
+                <tr>
+                    <td>Row 2, cell 1</td>
+                    <td>Row 2, cell 2</td>
+                    <td>Row 2, cell 3</td>
+                </tr>
+                <tr>
+                    <td>Row 3, cell 1</td>
+                    <td>Row 3, cell 2</td>
+                    <td>Row 3, cell 3</td>
+                </tr>
+                <tr>
+                    <td>Row 4, cell 1</td>
+                    <td>Row 4, cell 2</td>
+                    <td>Row 4, cell 3</td>
+                </tr>
+            </table>
+    </div>
+
+    <div id="checkboxes">
+        <h2>And now two random checkboxes for you to decide which to tick:</h2>
+            <form>
+                <p>Choose wisely:</p>
+                <input type="radio" name="ticked" id="option-A" value="A">
+                <label for="option-A">Option A</label>
+                <br>
+                <input type="radio" name="ticked" id="option-B" value="B">
+                <label for="option-B">Option B</label>
+            </form>
+    </div>
+    
+    <div id="box">
+        <h2>Lastly, something super important to keep in mind:</h2>
+            <img src="box-model.png" width="552" height="259" alt="The Box Model">
+            <p>The <strong>Box Model</strong> is a concept that is very important to keep in mind given that it helps you understand the "real" size of an element.</p>
+    </div>        
+</body>
+</html>
